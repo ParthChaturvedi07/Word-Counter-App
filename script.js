@@ -16,5 +16,5 @@ textArea.addEventListener("input", () => {
     sentences.textContent = sentenceArray.length - 1;
 
     let paragraphArray = text.split(/\n/);
-    paragraphs.textContent = paragraphArray.length;
+    paragraphs.textContent = paragraphArray.length-1;
 });
